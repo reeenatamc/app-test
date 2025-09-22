@@ -61,6 +61,18 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# Django specific
+media/
+staticfiles/
+static/
+.DS_Store
+*.sqlite3
+*.sqlite3-journal
+
+# Django migrations (uncomment if you want to ignore migrations)
+*/migrations/*.py
+!*/migrations/__init__.py
+
 # Flask stuff:
 instance/
 .webassets-cache
